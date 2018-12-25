@@ -21,3 +21,13 @@ git diff命令可以让我们查看具体修改了什么内容，eg：git diff r
 然后看一下仓库状态 git status
 然后放心提交 git commit "修改说明"
 提交后再使用 git status 查看一下仓库状态
+
+3.保存快照（Git中称为commit）
+在打Boss之前，会手动存盘，以便万一失败可以从最近的地方开始。当文件修改到一定程度的时候，就可以“保存一个快照”
+Git中称为commit，一旦文件改乱了或者误删了文件，还可以从最近的一个commit恢复然后继续工作
+
+首先回顾下readme.txt有几个版本提交到了git仓库中：用git log命令查看
+
+若准备把 readme.txt 回退到上一个add tutorial那个版本：
+使用git reset 命令： git reset --hard HEAD^
+然后查看 readme.txt 的内容是否回退： cat readme.txt 
