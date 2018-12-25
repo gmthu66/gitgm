@@ -15,7 +15,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 $ git remote add origin git@github.com:gmthu66/learngit.git
 远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库
 
-下一步，就可以把本地库的所有内容推送到远程库上：
+下一步，就可以把本地库的所有内容推送到远程库上：（u是为了减少以后的操作，不用再输入密码）
 $ git push -u origin master
 
 4.现在起，只要本地作了提交，就可以通过命令进行

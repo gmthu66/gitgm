@@ -18,6 +18,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 2.如果对于原来的文件又做了修改怎么提交？
 
 git status命令可以让我们时刻掌握仓库当前的动态，显示是否有没有准备提交的修改
+
 git diff命令可以让我们查看具体修改了什么内容，eg：git diff readme.txt
 知道对 readme.txt 作了什么修改后，就可以再次把它移交到仓库了：git add readme.txt
 然后看一下仓库状态 git status
