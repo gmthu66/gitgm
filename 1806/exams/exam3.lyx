@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -26,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -57,7 +55,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -66,10 +63,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -83,7 +77,7 @@
 \begin_body
 
 \begin_layout Title
-MIT 18.06 Exam 3, Fall 2018
+MIT 18.06 Exam 3, Fall 2017
 \begin_inset Newline newline
 \end_inset
 
@@ -183,7 +177,7 @@ score
 \length 3em
 \end_inset
 
-/33
+/30
 \end_layout
 
 \end_inset
@@ -209,7 +203,7 @@ score
 \length 3em
 \end_inset
 
-/33
+/30
 \end_layout
 
 \end_inset
@@ -235,7 +229,7 @@ score
 \length 3em
 \end_inset
 
-/34
+/40
 \end_layout
 
 \end_inset
@@ -248,7 +242,6 @@ score
 \begin_layout Plain Layout
 
 \size largest
-\emph on
 total
 \end_layout
 
@@ -279,125 +272,355 @@ total
 \begin_inset Newpage newpage
 \end_inset
 
-Problem 1 (33 points):
+Problem 1 (30 points):
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Give a matrix
+\series default
+ 
+\begin_inset Formula $A$
+\end_inset
+
+ where 
+\begin_inset Formula $\det(A-\lambda I)=0$
+\end_inset
+
+ has exactly two roots 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda=3$
+\end_inset
+
+, but the trace of 
+\begin_inset Formula $A$
+\end_inset
+
+ does 
+\emph on
+not
+\emph default
+ equal 4.
+\end_layout
+
+\begin_layout Enumerate
+The eigenvalues of 
+\begin_inset Formula $(A+A^{T})^{-1}$
+\end_inset
+
+ for any real, square matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ (assuming 
+\begin_inset Formula $A+A^{T}$
+\end_inset
+
+ is invertible) must be 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12em}}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $A=Q^{T}\Lambda Q$
+\end_inset
+
+ for a diagonal matrix 
+\begin_inset Formula $\Lambda$
+\end_inset
+
+ and a real orthogonal matrix 
+\begin_inset Formula $Q$
+\end_inset
+
+, then the eigenvectors of 
+\begin_inset Formula $A$
+\end_inset
+
+ are the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12em}}
+\end_layout
+
+\end_inset
+
+ of 
+\begin_inset Formula $Q$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ is real, and 
+\begin_inset Formula $e^{At}\left(\begin{array}{c}
+2\\
+4
+\end{array}\right)=e^{(3+4i)t}\left(\begin{array}{c}
+1+i\\
+2-2i
+\end{array}\right)+e^{\alpha t}\left(\begin{array}{c}
+\beta\\
+\gamma
+\end{array}\right)$
+\end_inset
+
+, then the (
+\begin_inset Formula $t$
+\end_inset
+
+-independent) scalars 
+\begin_inset Formula $\alpha,\beta,\gamma$
+\end_inset
+
+ are 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{24em}}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ is a 
+\begin_inset Formula $4\times4$
+\end_inset
+
+ matrix with 
+\begin_inset Formula $\det A=5$
+\end_inset
+
+, then 
+\begin_inset Formula $\frac{d}{dt}\det(A^{T}At)=$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12em}}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The following matrix is 
+\align center
+
 \emph on
-kind of like
+(blank page for your work if you need it)
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Newpage newpage
+\end_inset
+
+Problem 2 (30 points):
+\end_layout
+
+\begin_layout Standard
+You are given a matrix 
+\begin_inset Formula $A=e^{-B^{T}B}$
+\end_inset
+
+ for some real 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ matrix 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ The nullspace 
+\begin_inset Formula $N(B)$
+\end_inset
+
+ is spanned by 
+\begin_inset Formula $\left(\begin{array}{c}
+1\\
+2\\
+1
+\end{array}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Circle
+\series default
+ any of the following vectors that 
+\emph on
+cannot possibly
 \emph default
- a Markov matrix:
+ be eigenvectors of 
+\begin_inset Formula $A$
+\end_inset
+
+, and put a 
+\series bold
+rectangle
+\series default
+ around any vectors that 
+\emph on
+must be
+\emph default
+ eigenvectors of 
+\begin_inset Formula $A$
+\end_inset
+
+:
 \begin_inset Formula 
 \[
-A=\left(\begin{array}{ccc}
-0.1 & 0.3 & 0.6\\
-0.2 & 0.5 & 0.3\\
-0.4 & 0.4 & 0.2
+\left(\begin{array}{c}
+1\\
+2\\
+1
+\end{array}\right),\;\left(\begin{array}{c}
+1\\
+0\\
+0
+\end{array}\right),\;\left(\begin{array}{c}
+0\\
+0\\
+0
+\end{array}\right),\;\left(\begin{array}{c}
+1\\
+0\\
+-1
+\end{array}\right),\;\left(\begin{array}{c}
+1\\
+-1\\
+1
+\end{array}\right),\;\left(\begin{array}{c}
+2\\
+4\\
+2
+\end{array}\right),\;\left(\begin{array}{c}
+1\\
+1\\
+1
 \end{array}\right)
 \]
 
 \end_inset
 
- except that each 
-\emph on
-row
-\emph default
- sums to 1 (unlike a Markov matrix where each 
-\emph on
-column
-\emph default
- sums to 1).
+
 \end_layout
 
 \begin_layout Enumerate
-Give one eigenvalue and a corresponding eigenvector of 
-\begin_inset Formula $A$
+\begin_inset Formula $A^{n}x$
+\end_inset
+
+ for some 
+\begin_inset Formula $x\neq0$
+\end_inset
+
+ 
+\emph on
+may
+\emph default
+ do what for large 
+\begin_inset Formula $n$
+\end_inset
+
+ (circle 
+\emph on
+all possibilities
+\emph default
+)? 
+\series bold
+Oscillate / decay / diverge / go to a nonzero constant vector
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+For 
+\begin_inset Formula $x=\left(\begin{array}{c}
+1\\
+0\\
+0
+\end{array}\right)$
+\end_inset
+
+, give a 
+\series bold
+good approximation
+\series default
+ for 
+\begin_inset Formula $A^{n}x$
+\end_inset
+
+ for a very large 
+\begin_inset Formula $n$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Enumerate
-If 
-\begin_inset Formula $x\in\mathbb{R}^{3}$
-\end_inset
-
- is some vector 
-\begin_inset Formula $\ne0$
-\end_inset
-
-, give 
-\emph on
-brief
-\emph default
- answers to the following questions about what 
-\emph on
-might
-\emph default
- be true of 
-\begin_inset Formula $A^{n}x$
-\end_inset
-
- as 
-\begin_inset Formula $n\to\infty$
-\end_inset
-
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Can 
-\begin_inset Formula $A^{n}x$
-\end_inset
-
- approach a nonzero constant vector? If so, give the direction of the constant
- vector.
-\end_layout
-
-\begin_layout Enumerate
-Can 
-\begin_inset Formula $A^{n}x$
-\end_inset
-
- approach the zero vector? 
-\emph on
-If yes
-\emph default
-, describe (without calculating) what must be true of 
-\begin_inset Formula $x$
-\end_inset
-
- for this to happen.
-\end_layout
-
-\begin_layout Enumerate
-Can 
-\begin_inset Formula $A^{n}x$
-\end_inset
-
- diverge? What property of the eigenvalues of 
-\begin_inset Formula $A$
-\end_inset
-
- explains your answer?
-\end_layout
-
-\begin_layout Enumerate
-Can 
-\begin_inset Formula $A^{n}x$
-\end_inset
-
- oscillate forever (without growing or decaying)? What property of the eigenvalu
-es of 
-\begin_inset Formula $A$
-\end_inset
-
- explains your answer?
-\end_layout
-
-\end_deeper
 \begin_layout Subsection*
 \begin_inset Newpage newpage
 \end_inset
@@ -416,331 +639,212 @@ es of
 \begin_inset Newpage newpage
 \end_inset
 
-Problem 2 (33 points):
+Problem 3 (40 points):
 \end_layout
 
 \begin_layout Standard
-The 
-\begin_inset Formula $3\times3$
-\end_inset
-
- 
-\emph on
-real
-\emph default
- matrix 
-\begin_inset Formula $A$
-\end_inset
-
- has eigenvalues 
-\begin_inset Formula $\lambda_{1}=-1$
-\end_inset
-
-, 
-\begin_inset Formula $\lambda_{2}=-3+4i$
-\end_inset
-
-, and 
-\begin_inset Formula $\lambda_{3}=-3-4i,$
-\end_inset
-
- with corresponding eigenvectors 
-\begin_inset Formula $x_{1}$
-\end_inset
-
-, 
-\begin_inset Formula $x_{2}$
-\end_inset
-
-, and 
-\begin_inset Formula $x_{3}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-What are the trace and determinant of 
-\begin_inset Formula $2A$
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Enumerate
-If 
-\begin_inset Formula $x_{1}=\left(\begin{array}{c}
-1\\
-0\\
-0
-\end{array}\right)$
-\end_inset
-
- and 
-\begin_inset Formula $x_{2}=\left(\begin{array}{c}
-0\\
-1\\
-i
-\end{array}\right)$
-\end_inset
-
-, what is 
-\begin_inset Formula $x_{3}$
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Enumerate
-Which of the following might 
-\emph on
-possibly give a diverging solution
-\emph default
-, i.e.
- a solution vector whose magnitude blows up as 
-\begin_inset Formula $t\to\infty$
-\end_inset
-
- or 
-\begin_inset Formula $n\to\infty$
-\end_inset
-
- for some vector 
-\begin_inset Formula $y$
-\end_inset
-
-? Circle all that apply:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-\begin_inset Formula $A^{n}y$
-\end_inset
-
- as 
-\begin_inset Formula $n\to\infty$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $A^{-n}y$
-\end_inset
-
- as 
-\begin_inset Formula $n\to\infty$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-The solution of 
-\begin_inset Formula $\frac{dx}{dt}=Ax$
-\end_inset
-
- as 
-\begin_inset Formula $t\to\infty$
-\end_inset
-
- for 
-\begin_inset Formula $x(0)=y$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-The solution of 
-\begin_inset Formula $\frac{dx}{dt}=-Ax$
-\end_inset
-
- as 
-\begin_inset Formula $t\to\infty$
-\end_inset
-
- for 
-\begin_inset Formula $x(0)=y$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-The solution of 
-\begin_inset Formula $\frac{dx}{dt}=A^{T}Ax$
-\end_inset
-
- as 
-\begin_inset Formula $t\to\infty$
-\end_inset
-
- for 
-\begin_inset Formula $x(0)=y$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-The solution of 
-\begin_inset Formula $\frac{dx}{dt}=-A^{T}Ax$
-\end_inset
-
- as 
-\begin_inset Formula $t\to\infty$
-\end_inset
-
- for 
-\begin_inset Formula $x(0)=y$
-\end_inset
-
-.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Write down the exact solution 
+The vector 
 \begin_inset Formula $x(t)$
 \end_inset
 
- to 
-\begin_inset Formula $\frac{dx}{dt}=Ax$
-\end_inset
-
- for the initial condition 
-\begin_inset Formula $x(0)=\left(\begin{array}{c}
-1\\
-2\\
-0
-\end{array}\right)$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\emph on
-(blank page for your work if you need it)
-\end_layout
-
-\begin_layout Subsection*
-\begin_inset Newpage newpage
-\end_inset
-
-Problem 3 (34 points):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $A$
-\end_inset
-
- is a real 
-\begin_inset Formula $3\times3$
-\end_inset
-
- matrix.
- The matrix 
-\begin_inset Formula $B=A+A^{T}$
-\end_inset
-
- has eigenvalues 
-\begin_inset Formula $\lambda_{1}=2,$
-\end_inset
-
- 
-\begin_inset Formula $\lambda_{2}=0,$
-\end_inset
-
- and 
-\begin_inset Formula $\lambda_{3}=1,$
-\end_inset
-
- with corresponding eigenvectors 
-\begin_inset Formula $x_{1}=\left(\begin{array}{c}
-1\\
-2\\
-1
-\end{array}\right)$
-\end_inset
-
-, 
-\begin_inset Formula $x_{2}=\left(\begin{array}{c}
--2\\
-1\\
-0
-\end{array}\right)$
-\end_inset
-
-, and 
-\begin_inset Formula $x_{3}=\left(\begin{array}{c}
-1\\
-2\\
--5
-\end{array}\right)$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-What is the matrix 
-\begin_inset Formula $e^{B}$
-\end_inset
-
-? You can leave your answer as a product of several matrices, as long as
- you write down each matrix explicitly.
-\end_layout
-
-\begin_layout Enumerate
-Let 
-\begin_inset Formula $C=(I-B)(I+B)^{-1}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-What are the eigenvalues of 
-\begin_inset Formula $C$
-\end_inset
-
-? (Not much calculation is needed!)
-\end_layout
-
-\begin_layout Enumerate
-Suppose that we compute 
+ satisfies the ODE
 \begin_inset Formula 
 \[
-y=C^{100}\left(\begin{array}{c}
-1\\
-1\\
-1
-\end{array}\right).
+(I+A)\frac{dx}{dt}=(A^{2}-I)x
 \]
 
 \end_inset
 
- Give a good approximation for the vector 
-\begin_inset Formula $y$
+ for the 
+\series bold
+diagonalizable
+\series default
+ matrix 
+\begin_inset Formula $A=\left(\begin{array}{ccc}
+0.9 & 0.0 & 0.3\\
+0.0 & 0.8 & 0.4\\
+0.1 & 0.2 & 0.3
+\end{array}\right)$
 \end_inset
 
- in terms of a single eigenvector.
+.
+ If we square this, we get 
+\begin_inset Formula $A^{2}=\left(\begin{array}{ccc}
+0.84 & 0.06 & 0.36\\
+0.04 & 0.72 & 0.44\\
+0.12 & 0.22 & 0.2
+\end{array}\right).$
+\end_inset
+
+
 \end_layout
 
-\end_deeper
+\begin_layout Enumerate
+If 
+\begin_inset Formula $A$
+\end_inset
+
+ has an eigenvalue 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ and an eigenvector 
+\begin_inset Formula $v$
+\end_inset
+
+, give 
+\series bold
+a nonzero solution
+\series default
+ 
+\begin_inset Formula $x(t)$
+\end_inset
+
+ satisfying the ODE above, in terms of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, 
+\begin_inset Formula $v$
+\end_inset
+
+, and 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Both 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+ are 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12em}}
+\end_layout
+
+\end_inset
+
+ matrices.
+ By inspection of 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+, what can you say (with no arithmetic! don't calculate 
+\begin_inset Formula $\lambda$
+\end_inset
+
+!) 
+\series bold
+about the magnitudes
+\series default
+ 
+\begin_inset Formula $|\lambda|$
+\end_inset
+
+ of the three eigenvalues of 
+\begin_inset Formula $A^{2}$
+\end_inset
+
+? What does this tell you about the magnitudes 
+\begin_inset Formula $|\lambda|$
+\end_inset
+
+ of the eigenvalues of 
+\begin_inset Formula $A$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Give the 
+\series bold
+eigenvalue
+\series default
+ 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ of 
+\begin_inset Formula $A$
+\end_inset
+
+ with the biggest magnitude.
+ A corresponding 
+\series bold
+eigenvector
+\series default
+ is 
+\begin_inset Formula $\left(\begin{array}{c}
+\alpha\\
+2\\
+1
+\end{array}\right)$
+\end_inset
+
+ for what 
+\begin_inset Formula $\alpha$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+For an initial conditions 
+\begin_inset Formula $x(0)=\left(\begin{array}{c}
+1\\
+0\\
+0
+\end{array}\right)$
+\end_inset
+
+, circle what would you expect the solutions 
+\begin_inset Formula $x(t)$
+\end_inset
+
+ to do for large 
+\begin_inset Formula $t$
+\end_inset
+
+: 
+\series bold
+Oscillate / decay / diverge / go to a nonzero constant vector
+\series default
+? Give a good 
+\series bold
+approximation for 
+\series default
+
+\begin_inset Formula $x(t)$
+\end_inset
+
+ for a large 
+\begin_inset Formula $t$
+\end_inset
+
+ — if you can't figure it out exactly, at least give a vector that 
+\begin_inset Formula $x(t)$
+\end_inset
+
+ is nearly parallel to.
+\end_layout
+
 \begin_layout Subsection*
 \begin_inset Newpage newpage
 \end_inset

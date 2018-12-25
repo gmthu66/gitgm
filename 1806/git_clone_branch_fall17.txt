@@ -1,0 +1,9 @@
+#git clone 指定分支的代码  
+
+git clone git@github.com:gmthu66/1806.git 会默认clone master分支的代码到本地库
+但是如果想要fall17分支的代码
+
+那么：首先cd到该repo的目录
+
+git branch -r 查看远程库的分支
+git checkout origin/fall17   就可以clone下来对应分支的代码
