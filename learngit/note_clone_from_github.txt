@@ -1,0 +1,9 @@
+#如何克隆远程库到本地
+1.登录github准备好一个远程的仓库
+
+
+2.远程仓库准备好后，用命令git clone 将其克隆到一个本地库
+$ git clone git@github.com:gmthu66/1806.git
+
+或者创建一个本地仓库的克隆版本：
+git clone /path/to/repository 
